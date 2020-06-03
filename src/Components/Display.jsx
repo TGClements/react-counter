@@ -1,16 +1,14 @@
-import React, {useState} from 'react';
+import React, { useState, Fragment } from 'react';
 
-function Display(props) {
-    // const [display,setDisplay] = useState(0);
+function Display({ numbers }) {
+  // const [display,setDisplay] = useState(0);
 
-    return (
-        <section className="display">
-            This is the Display for the Counter.
-        </section>
-    )
-
-
+  return (
+    <section className='display'>
+      <h3>Count</h3>
+      <p>{numbers[numbers.length - 1]}</p>
+    </section>
+  );
 }
 
 export default Display;
-
