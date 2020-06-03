@@ -11,7 +11,7 @@ function History({ numbers }) {
           .map((num, i) => {
             return (
               <div key={i}>
-                <p>{num}</p>
+                <p className='histNum'>{num}</p>
               </div>
             );
           })

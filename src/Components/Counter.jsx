@@ -11,9 +11,6 @@ function Counter() {
       <ButtonPad numbers={numbers} setNumbers={setNumbers} />
       <Display numbers={numbers} />
       <History numbers={numbers} />
-      <div></div>
-      <div></div>
-      <div></div>
     </div>
   );
 }

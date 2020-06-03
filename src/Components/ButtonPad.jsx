@@ -75,7 +75,7 @@ export default function ButtonPad({ numbers, setNumbers }) {
           setNumbers(numbers.concat(numbers[numbers.length - 1] * 859));
         }}
       >
-        *859
+        ×859
       </button>
       <button
         className='numBut'
@@ -83,7 +83,7 @@ export default function ButtonPad({ numbers, setNumbers }) {
           setNumbers(numbers.concat(numbers[numbers.length - 1] / 859));
         }}
       >
-        /859
+        ÷859
       </button>
       <div></div> {/* Empty div for grid layout */}
       <button
